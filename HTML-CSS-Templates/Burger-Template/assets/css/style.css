@@ -471,7 +471,7 @@ header{
 
 .sec-top{
   text-align: center;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .sec-top-title1{
@@ -680,7 +680,7 @@ header{
 
 /* start download */
 .download{
-  padding: 30px;
+  padding: 30px 0;
   color: #fff ;
 }
 
@@ -794,7 +794,7 @@ address{
 .footer-2{
   margin-top: 40px;
   border-top: 1px solid #6b6b6b33;
-  padding: 25px;
+  padding: 25px 0;
 }
 
 .footer-2-items{
