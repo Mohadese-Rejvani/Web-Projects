@@ -1,0 +1,29 @@
+body{
+    font-family: "Vazirmatn", sans-serif;
+}
+
+.mr-n10{
+    margin-right: -10px;
+}
+
+.x-small{
+    font-size: 0.7em;
+}
+
+.active-projects tbody tr:last-child{
+    border-color: transparent;
+}
+
+.last-activity li>span{
+    width: 32px;
+    height: 32px;
+}
+
+.last-activity li:not(:last-child)>span::after{
+    content: '';
+    width: 2px;
+    height: 50px;
+    background-color: var(--bs-primary-bg-subtle);
+    position: absolute;
+    top:100%;
+}
